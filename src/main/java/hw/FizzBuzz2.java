@@ -1,6 +1,6 @@
 package hw;
 
-public class MyTest {
+public class FizzBuzz2 {
 
     public static void main(String[] args) {
 
