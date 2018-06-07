@@ -1,6 +1,8 @@
 package hw;
-
+import java.util.Scanner;
 import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -40,6 +42,21 @@ public class Main {
       for (int i = 0; i < result.length; i++) {
         System.out.println(result[i]);
       }
+      List myList = new ArrayList();
+
+
+      myList.add("fizz");
+      myList.add("buzz");
+      myList.add("fizzbuzz");
+
+      String myString = (String) myList.get(0);
+      System.out.println(myList);
+      System.out.println(result);
+      System.out.println(String.valueOf(result));
+
+
+
+
   }
 }
 
